@@ -1,1 +1,9 @@
-{}
+{
+  "function": {
+    "Test": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}

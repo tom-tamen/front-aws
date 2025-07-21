@@ -1,15 +1,33 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-tomfront-dev-3eae9-authRole",
-      "UnauthRoleArn": "arn:aws:iam::993471332033:role/amplify-tomfront-dev-3eae9-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::993471332033:role/amplify-tomfront-dev-3eae9-authRole",
-      "Region": "eu-west-3",
-      "DeploymentBucketName": "amplify-tomfront-dev-3eae9-deployment",
-      "UnauthRoleName": "amplify-tomfront-dev-3eae9-unauthRole",
-      "StackName": "amplify-tomfront-dev-3eae9",
-      "StackId": "arn:aws:cloudformation:eu-west-3:993471332033:stack/amplify-tomfront-dev-3eae9/af747440-6610-11f0-8c08-064c41f6f52f",
-      "AmplifyAppId": "d1g63cwr1rcx0d"
+      "AuthRoleName": "amplify-tomfront-dev-223c1-authRole",
+      "UnauthRoleArn": "arn:aws:iam::993471332033:role/amplify-tomfront-dev-223c1-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::993471332033:role/amplify-tomfront-dev-223c1-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-tomfront-dev-223c1-deployment",
+      "UnauthRoleName": "amplify-tomfront-dev-223c1-unauthRole",
+      "StackName": "amplify-tomfront-dev-223c1",
+      "StackId": "arn:aws:cloudformation:eu-west-1:993471332033:stack/amplify-tomfront-dev-223c1/43650cb0-662e-11f0-9088-06b5af320d97",
+      "AmplifyAppId": "d3u0l0h1utnvph"
+    }
+  },
+  "back": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tomfront-back-ed96d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::993471332033:role/amplify-tomfront-back-ed96d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::993471332033:role/amplify-tomfront-back-ed96d-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-tomfront-back-ed96d-deployment",
+      "UnauthRoleName": "amplify-tomfront-back-ed96d-unauthRole",
+      "StackName": "amplify-tomfront-back-ed96d",
+      "StackId": "arn:aws:cloudformation:eu-west-1:993471332033:stack/amplify-tomfront-back-ed96d/88f2d5f0-662e-11f0-bd38-02f546aad3d7",
+      "AmplifyAppId": "d3u0l0h1utnvph"
+    },
+    "categories": {
+      "function": {
+        "Test": {}
+      }
     }
   }
 }

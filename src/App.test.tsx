@@ -7,7 +7,7 @@ describe('Compteur', () => {
   it('devrait incrémenter le compteur quand on clique sur le bouton', () => {
     render(<App />)
     const button = screen.getByRole('button', { name: /count is/i })
-    expect(button).toHaveTextContent('count is 0')
+    expect(button).toHaveTextContent('count is failed')
     fireEvent.click(button)
     expect(button).toHaveTextContent('count is 1')
     fireEvent.click(button)
